@@ -1,0 +1,251 @@
+        body {
+            margin: 0; 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            background: #0f0c1b; /*поміняла фон */
+            color: #ffffff;
+        }
+
+        .div-67 {
+            width: 100%;
+            text-align: center;
+        }
+
+        .photo {
+            width: 100%;
+            max-width: 1300px;
+            border-bottom: 4px solid #ff007f; /* Неоновий акцент */
+        }
+
+        .div-2 {
+            text-align: center; 
+            margin-top: 50px;
+            padding: 20px;
+        }
+
+        .div-2 h2 {
+            font-size: 24px;
+            color: #fff;
+        }
+
+        .div-2 a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 50px;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            background: linear-gradient(45deg, #ff0055, #00dbde);
+            border-radius: 50px; 
+            box-shadow: 0 4px 15px rgba(255, 0, 85, 0.4);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .div-2 a:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 219, 222, 0.6);
+        }
+
+        .div-3 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 80px 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .about {
+            width: 50%;
+        }
+
+        .about h1 {
+            font-size: 50px; 
+            font-weight: 800;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #ff007f, #ffaa00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .about p {
+            font-size: 18px; 
+            line-height: 1.6;
+            color: #ccc;
+        }
+
+        .div-3 img {
+            width: 450px; 
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        h1.grid-title {
+            text-align: center;
+            font-size: 40px;
+            margin-top: 60px;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .games-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1300px;
+            margin: 0 auto 80px auto;
+            padding: 0 20px;
+        }
+
+        .game-card {
+            width: 350px;
+            background: #1a162b;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+        }
+
+        .game-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .game-card img {
+            width: 100%; 
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .game-card h2 {
+            font-size: 20px;
+            padding: 15px 20px 0 20px;
+            margin: 0;
+            color: #00dbde;
+        }
+
+        .game-card p {
+            font-size: 14px;
+            padding: 10px 20px 20px 20px;
+            line-height: 1.5;
+            color: #aaa;
+        }
+
+       
+        .fakts {
+            padding: 80px 20px;
+            background-image: linear-gradient(15deg, rgba(32, 2, 133, 0.6), rgba(241, 62, 151, 0.6)), 
+                              linear-gradient(90deg, rgb(246, 112, 73) 0%, rgb(230, 71, 141) 11%, rgb(206, 9, 242) 48%, rgb(254, 132, 39) 50%, rgb(238, 91, 107) 61%, rgb(214, 30, 208) 88%, rgb(222, 50, 174) 100%);
+            color: #fff;
+        }
+
+        .fakts-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .fakts h2 {
+            text-align: center;
+            font-size: 42px;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+            letter-spacing: 1px;
+        }
+
+        .fakts ul {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .fakts li {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 25px;
+            border-radius: 12px;
+            backdrop-filter: blur(5px); 
+            border-left: 5px solid #ff007f;
+            line-height: 1.6;
+            font-size: 16px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.2s;
+        }
+
+        .fakts li:hover {
+            transform: scale(1.02);
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .fakts li b {
+            display: block;
+            font-size: 18px;
+            color: #ffaa00;
+            margin-bottom: 8px;
+        }
+
+        .site-footer {
+            background: #090710;
+            padding: 40px 20px;
+            text-align: center;
+            border-top: 1px solid #221a35;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-links {
+            margin-bottom: 20px;
+        }
+
+        .footer-links a {
+            color: #aaa;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: #00dbde;
+        }
+
+        .footer-logo {
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+            background: linear-gradient(45deg, #00dbde, #ff007f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .site-footer p {
+            color: #666;
+            font-size: 13px;
+            margin: 0;
+        }
+
+        /* --- АДАПТИВНІСТЬ --- */
+        @media(max-width: 600px) {
+            .div-3 {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 40px 20px;
+            }
+            .about {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            .div-3 img {
+                width: 100%;
+                max-width: 400px;
+            }
+        }
